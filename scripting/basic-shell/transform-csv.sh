@@ -39,7 +39,4 @@ do
     echo "$f1,$f2,$f3,$f4,$f6,+$f5-$f7"
 done < input.test
 
-# seems that character class for digits does not work
-#cat input | grep -Eo "(\(\d{3}\) |\d{3}-)\d{3}-\d{4}"
-
 rm input.test
